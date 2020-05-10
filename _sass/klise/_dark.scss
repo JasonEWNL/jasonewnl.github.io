@@ -125,10 +125,13 @@ body[data-theme="dark"] {
     border-color: $dark-light;
     .menu {
       a#mood {
-        .mood-sunny {
-          display: block;
-        }
         .mood-moon {
+          display: block;
+          path {
+            fill: $white;
+          }
+        }
+        .mood-sun {
           display: none;
         }
       }
