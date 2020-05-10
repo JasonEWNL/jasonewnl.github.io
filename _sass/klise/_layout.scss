@@ -35,26 +35,12 @@
       transform: scale(0.9, 0.9);
     }
     .mood-moon {
-      display: block;
-      line {
-        stroke: $black;
-        fill: none;
-      }
-
-      circle {
-        fill: $black;
-        stroke: $black;
-      }
-    }
-    .mood-sunny {
       display: none;
-      line {
-        stroke: $dark-white;
-        fill: none;
-      }
-      circle {
-        fill: none;
-        stroke: $dark-white;
+    }
+    .mood-sun {
+      display: block;
+      path {
+        fill: $black;
       }
     }
   }
