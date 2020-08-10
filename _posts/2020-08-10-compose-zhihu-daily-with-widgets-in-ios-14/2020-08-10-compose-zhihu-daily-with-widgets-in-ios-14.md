@@ -13,7 +13,7 @@ tag:
 
 Since Apple announced WidgetKit in WWDC20, the tide of ideas have been flooding through my mind. Although some limitation like no interaction except deep link might quench the fire, it still has a great deal of stuff to dive into. Along with the stabilisation of API design like placeholder, it's a good time to fill the tank up! This time we will use ZhiHu Daily for explanation.
 
-![ZhiHuDaily-Screenshot-1](ZhiHuDaily-Screenshot-1.png)
+![ZhiHuDaily-Screenshot-1](../../assets/images/ZhiHuDaily-Screenshot-1.png)
 
 ## Preparation
 
@@ -203,7 +203,7 @@ struct StoryWidget: Widget {
 
 With `onOpenURL(perform:)` in the main app, we can implement the deep link which is entering specific news view in our case.
 
-![ZhiHuDaily-Screenshot-2](ZhiHuDaily-Screenshot-2.png)
+![ZhiHuDaily-Screenshot-2](../../assets/images/ZhiHuDaily-Screenshot-2.png)
 
 ## Conclusion
 
