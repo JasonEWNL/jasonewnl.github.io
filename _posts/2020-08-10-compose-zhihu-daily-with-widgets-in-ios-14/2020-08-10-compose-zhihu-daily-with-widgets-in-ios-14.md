@@ -7,7 +7,7 @@ tag:
 - WidgetKit
 ---
 
-> The complete project is available at [GitHub](https://github.com/JasonEWNL/ZhiHuDaily), which provides full encapsulation and optimization you wll be interested. Also you might find it more vivid alongside the holistic structure during this trip.
+> The complete project is available at [GitHub](https://github.com/JasonEWNL/ZhiHuDaily), which provides full encapsulation and optimization you will be interested. Also you might find it more vivid alongside the holistic structure during this trip.
 
 ## Origin
 
