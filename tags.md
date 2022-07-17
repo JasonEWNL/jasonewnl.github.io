@@ -12,12 +12,12 @@ excerpt: Sorted article by tags.
 
 {% for post in site.tags[name] %}
 <article class="posts">
-  <span class="posts-date">{{ post.date | date: "%b %d, %Y" }}</span>
   <header class="posts-header">
     <h4 class="posts-title">
       <a href="{{ post.url }}">{{ post.title | escape }}</a>
     </h4>
   </header>
+  <span class="posts-date">{{ post.date | date: "%b %d, %Y" }}</span>
 </article>
 {% endfor %}
 {% endfor %}
